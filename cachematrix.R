@@ -11,7 +11,7 @@
 makeCacheMatrix <- function(x = matrix()) {
         inv <- NULL
         if(class(x)!="matrix") {
-                message("Error: Please feed the matrix to the function." 
+                message("Error: Please feed the matrix to the function.",
                         "You were trying to feed a ", class(x), " instead of a matrix")
                 return()
         }
